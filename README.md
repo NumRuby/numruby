@@ -1,8 +1,7 @@
 # Numruby
 
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/numruby`. To experiment with that code, run `bin/console` for an interactive prompt.
+NumRuby is the umbrella gem for a Ruby scientific computing ecosystem inspired by [NumPy](https://github.com/numpy/numpy).
+It provides a unified namespace for array, linear algebra, statistics, plotting, and other scientific libraries.
 
 ## Installation
 
@@ -36,7 +35,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/vegans
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [BSD-3-Clause License](https://opensource.org/licenses/BSD-3-Clause).
 
 ## Code of Conduct
 
