@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "numruby/version"
+require_relative 'numruby/version'
 
 module Numruby
   class Error < StandardError; end
