@@ -1,4 +1,4 @@
-# Numruby
+# NumRuby
 
 NumRuby is the umbrella gem for a Ruby scientific computing ecosystem inspired by [NumPy](https://github.com/numpy/numpy).
 It provides a unified namespace for array, linear algebra, statistics, plotting, and other scientific libraries.
