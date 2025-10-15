@@ -1,27 +1,43 @@
 # NumRuby
 
-NumRuby is the umbrella gem for a Ruby scientific computing ecosystem inspired by [NumPy](https://github.com/numpy/numpy).
+**Under construction**
+
+NumRuby is the umbrella gem for a Ruby scientific computing ecosystem inspired by [NumPy](https://github.com/numpy) and [SciPy](https://github.com/scipy).
 It provides a unified namespace for array, linear algebra, statistics, plotting, and other scientific libraries.
+
+## Modules
+
+Planned usage of [Ruby Numo (NUmerical MOdule)](https://github.com/ruby-numo) for parts of NumRuby.
+
+- `numo-narray` : Core multidimensional arrays
+- `numo-linalg` : Linear algebra
+- `numruby-ufunc` : Elementwise functions & broadcasting
+- `numruby-stats` : Statistical & probability routines
+- `numruby-plot` : Plotting & visualization
+
+## Vision
+
+Provide a unified namespace for math, data, and scientific computing in Ruby,
+making it easy for researchers, educators, and data scientists to use Ruby
+similarly to Python’s scientific stack.
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
-```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+```sh
+bundle add numruby
 ```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+```sh
+gem install numruby
 ```
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO
 
 ## Development
 
@@ -31,7 +47,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/veganstraightedge/numruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/veganstraightedge/numruby/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/numruby/numruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/numruby/numruby/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -39,4 +55,4 @@ The gem is available as open source under the terms of the [BSD-3-Clause License
 
 ## Code of Conduct
 
-Everyone interacting in the Numruby project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/veganstraightedge/numruby/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the Numruby project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/numruby/numruby/blob/main/CODE_OF_CONDUCT.md).
